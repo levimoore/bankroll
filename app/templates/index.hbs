@@ -1,0 +1,40 @@
+    <div class="container-br">
+    <div class="container">
+      <div class="page-header">
+        <h2>Pick the winners, increase your bankroll. Simple.</h2>
+      </div>
+
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4 boss-bg">
+          <h3 class="text-center">Show you're the boss</h3>
+          <img class="img-responsive center-block" src="/assets/images/bear1.png" width="125px" height="125px"/> 
+          <p>On Bankroll there are many open leagues you can join. You can join leagues based on your favorite team, the region where you live, your
+            taste in music, all girl leagues, LGBT leagues, whatever...</p>
+          <p><a class="btn btn-default" href="#" role="button">View Open Leagues&raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h3 class="text-center">Start a private league</h3>
+          <img class="img-responsive center-block" src="/assets/images/bear2.png" width="272px" height="148px"/>
+          <p>Email your friends and invite them to join. Private leagues can set their own rules about how wagers are placed, whether or not to use
+            odds, if all games must be wagered on, etc... Private leagues also have private message boards.</p>
+          <p><a class="btn btn-default" href="/leagues/new" role="button">Create League&raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h3 class="text-center">See the experts picks</h3>
+          <img class="img-responsive center-block" src="/assets/images/bear3.png" width="125px" height="125px"/>
+          <p>Need help making picks? We have a bevy of experts ready to give thier advice. No one can know everyhting about every game in every league, so check out this section for advice on all games in all sports.</p>
+          <p><a class="btn btn-default" href="#" role="button">View picks&raquo;</a></p>
+        </div>
+      </div>
+      <section>
+      {{#each post in arrangedContent}}
+        <div>{{post.title}}</div>
+        <div>{{post.body}}</div>
+      {{/each}}
+      </section>
+    </div>
+    </div>
+  </div>

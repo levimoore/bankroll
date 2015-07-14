@@ -1,0 +1,1 @@
+/Users/levimoore/~development/~bankroll/bankroll-v1/node_modules/emberfire/addon/utils/to-promise.js

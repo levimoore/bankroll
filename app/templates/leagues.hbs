@@ -1,0 +1,10 @@
+<div class="container-br">
+<div class="container">
+<h3>Your Leagues</h3>
+      <section>
+      {{#each league in arrangedContent}}
+        <div><h4>{{#link-to 'league' league}}{{league.leagueName}}{{/link-to}}</h4><p> {{league.description}}</p></div>
+      {{/each}}
+      </section>
+</div>
+</div>

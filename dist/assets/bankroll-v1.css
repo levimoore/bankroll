@@ -1,0 +1,99 @@
+/* Put your CSS here */
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 85px;
+}
+.navbar{
+	background-color: #ffffff;
+	border-color: #ddaf31;
+}
+.navbar-nav li a {
+ line-height: 40px;
+ vertical-align: top;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 85px;
+  background-color: #011e33;
+}
+
+#sidebar {
+    border: 1px solid skyblue;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    top: 72px;
+    bottom: 50px;
+    clear: both;
+}
+#main {
+  margin-left: 200px;
+  padding: 0px 100px 20px 20px;
+}
+/* Text */
+.red{
+  color: #510e0e;
+}
+.blue{
+  color: #001d33;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+.container-br{
+	margin-top: 100px;
+}
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+.btn-custom {
+	color: #fff;
+  background-color: #011e33;
+  border-color: #011e33;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active {
+	color: #fff;	
+  background-color: #071003;
+  border-color: #000000;
+  outline: 0;
+}
+
+.boss-bg {
+  background-color: #ffffff;
+}
+.teamList
+{
+    list-style-type: none;
+}
+.center {
+     float: none;
+     margin-left: auto;
+     margin-right: auto;
+}

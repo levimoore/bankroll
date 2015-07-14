@@ -1,0 +1,11 @@
+import DS from 'ember-data';
+
+export default DS.Model.extend({
+	players: DS.hasMany('player', {async: true}),
+	city: DS.attr('string'),
+	conf: DS.attr('string'),
+	logo: DS.attr('string'),
+	wins: DS.attr('number'),
+	losses: DS.attr('number'),
+	teamName: DS.attr('string')
+});

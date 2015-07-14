@@ -1,0 +1,16 @@
+<div class="container-br">
+
+
+<div id="sidebar">Sidebar<br/>Sidebar<br/>Sidebar<br/></div>
+<div id="main">
+<h3>League Details</h3>
+      <section>
+        <div>{{leagueName}} {{description}}</div>
+        <!--<div>{{member}}</div>-->
+      </section>
+      {{#if personIsMember}}
+      <button type="submit" class="btn btn-custom pull-right"{{action 'join' on='click'}}>Join League</button>
+      {{/if}}
+  </div>
+
+</div>

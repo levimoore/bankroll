@@ -1,0 +1,34 @@
+import Ember from 'ember';
+import config from './config/environment';
+
+var Router = Ember.Router.extend({
+  location: config.locationType
+});
+
+Router.map(function() {
+  this.route('user');
+  this.route('leagues');
+  this.route('wagers');
+  this.route('account');
+  this.route('login');
+  this.route('logout');
+  this.route('bankroll');
+  this.route('football');
+  this.route('basketball');
+  this.route('baseball');
+  this.route('soccer');
+  this.route('hockey');
+  this.route('password');
+  this.route('authenticated');
+  this.route('email');
+  this.route('signup');
+  this.route('leagues/new');
+  this.resource('league', { path: '/league/:league_id' });
+  this.route('nflteams');
+  this.resource('nflteam', {path: 'nflteam/:nflteam_id'}, function()
+  {
+    this.resource('players', function() {});
+  });
+});
+
+export default Router;

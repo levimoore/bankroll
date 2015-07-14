@@ -1,0 +1,15 @@
+var passedword = "";
+
+function createPassword()
+{
+
+    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+    for( var i=0; i < 5; i++ )
+       { passedword += possible.charAt(Math.floor(Math.random() * possible.length));
+}    
+	console.log('this was called');
+    return passedword;
+    console.log(passedword);
+
+}
